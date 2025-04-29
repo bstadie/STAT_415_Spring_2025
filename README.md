@@ -43,7 +43,7 @@ Lecture notes can be found on the course Canvas website.
 |--------------------------------|---------------|-------------------------|
 | Fraud Detection                | April 2      | April 16 (2 weeks)  |
 | Recommender Systems 1         | April 16      | Apr 28 (1.5 weeks)  |
-| Recommender Systems 2         | April 28      | May 7 (1.5 weeks)  |
-| Housing Prices     | May 7         | May  19  (1.5 weeks)  |
-| Explainability & Animal Images | May 19        | May 28    (1.5 weeks) | 
+| Recommender Systems 2         | April 28      | May 12 (2 weeks)  |
+| Housing Prices     | May 12         | May  21  (1.5 weeks)  |
+| Explainability & Animal Images | May 21        | June 2    (1.5 weeks) | 
 | Final Exam (Coding)            | June 4       | June 4 (3 hours)    |
