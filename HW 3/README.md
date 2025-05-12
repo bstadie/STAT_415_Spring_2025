@@ -44,7 +44,7 @@ Note, another way of forming question 3 is this: Make a matrix where $a_{ij}$ is
 
 ### Text Embedding
 
-11. Consider the column ``'Review Text'``. Embed the review texts into vectors using Sentence Transformers. Use these embeddings as features to train a logistic regression model to predict the review sentiment: positive or negative. Note, this repo contains reference code for embedding with sentence transformers. Compare the MSE of this model to the MSEs of the models in steps 5 and 7. 
+11. Consider the column ``'Review Text'``. Embed the review texts into vectors using Sentence Transformers. Use these embeddings as features to train a logistic regression model to predict the review sentiment: positive or negative. Note, this repo contains reference code for embedding with sentence transformers. Compare the MSE of this model to the MSEs of the models in steps 5 and 8. 
 
 
 
