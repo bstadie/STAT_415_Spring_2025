@@ -82,7 +82,7 @@ We now turn our attention to `WI_housing_price.csv`.
    
 15. Try your best to achieve some transfer learning. Take a linear model and train it on the data from `IL_housing_price.csv`. Then, take that trained linear model and try to make predictions on the data from `WI_housing_price.csv`. Does your trained linear model transfer?
  
-16. Let's try to achieve some transfer via training. First, train a neural network on `IL_housing_price.csv`. Then, once this first training is done, fine-tune the network by training on the data from `WI_housing_price.csv`. Note, you might want to only train on `WI_housing_price.csv` for a few iterations, since it is small and you risk overfitting if you train for a long time. How do your results compare to the results from 12? Does transfer help at all?
+16. Let's try to achieve some transfer via training. First, train a neural network on `IL_housing_price.csv`. Then, once this first training is done, fine-tune the network by training on the data from `WI_housing_price.csv`. Note, you might want to only train on `WI_housing_price.csv` for a few iterations, since it is small and you risk overfitting if you train for a long time. How do your results compare to the results from 14? Does transfer help at all?
 
 ## Section B: 
 
