@@ -38,19 +38,19 @@ Starting with the Pima Indians Diabetes Database. This dataset can be downloaded
 
 We now turn our attention to the animal classification dataset. 
 
-8. First, let's start by loading the data. Here's some [starter code](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/homework-4/data_loader.py) for data loading is provided. You need to fill in the missing parts of the code to correctly load the data. Then, visualize an example image from each class in the training dataset.
+8. First, let's start by loading the data. Here's some [starter code](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/data_loader.py) for data loading is provided. You need to fill in the missing parts of the code to correctly load the data. Then, visualize an example image from each class in the training dataset.
 
 9. Train a linear model on the animal clasification dataset. Note that you will need to use PyTorch to train this model, since there is no way you'll be able to do the matrix inversion required to run OLS. Here is some [starter code](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/01-basics/linear_regression/main.py). A linear model corresponds to a single linear layer from the input to the output.
 
-10. Train a vanilla deep convolutional network on the animal classifcaiton dataset. You should reference the starter code [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/homework-4/nn_models.py#L50). 
+10. Train a vanilla deep convolutional network on the animal classifcaiton dataset. You should reference the starter code [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/nn_models.py#L50). 
 
 11. Tune your neural network by adding batchnorm, more layers, better activations, improved learning rates, etc. Compare the accuracy of the linear model, the simple conv net, and the tuned conv net. Do this by making learning curves, which show the training epoch on the X-axis and the cross entropy loss on the Y-axis. Note that your overall graph will have 3 total curves: the linear model cross entropy loss vs epoch, the vanialla conv net cross entropy loss vs epoch, and the tuned convolutional model cross entropy loss vs epoch. Make a similar curve that shows the training epoch on the X-axis and the model test accuracy on the Y-axis for all three models. What hyper-parameters are important for learning?
 
 
 ### Feature Atribution on Animal Images
 
-12. Using the starter code [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/homework-4/smooth_grad.py), run SmoothGrad on one your convolutional model from step 10. Produce a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
+12. Using the starter code [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/smooth_grad.py), run SmoothGrad on one your convolutional model from step 10. Produce a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
 
-13. Similarly, use LIME on images to generate an explanation of what features your convolutional net from step 10 is selecting on. See for example [here](https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/images.png). Starter code is [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/homework-4/LIME.py). Compare the features selected on by LIME and SmoothGrad. Are there any common features for certain animals? 
+13. Similarly, use LIME on images to generate an explanation of what features your convolutional net from step 10 is selecting on. See for example [here](https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/images.png). Starter code is [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/LIME.py). Compare the features selected on by LIME and SmoothGrad. Are there any common features for certain animals? 
 
 That's it! You're done with the HW for this class.
