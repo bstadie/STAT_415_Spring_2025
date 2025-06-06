@@ -46,11 +46,13 @@ We now turn our attention to the animal classification dataset.
 
 11. Tune your neural network by adding batchnorm, more layers, better activations, improved learning rates, etc. Compare the accuracy of the linear model, the simple conv net, and the tuned conv net. Do this by making learning curves, which show the training epoch on the X-axis and the cross entropy loss on the Y-axis. Note that your overall graph will have 3 total curves: the linear model cross entropy loss vs epoch, the vanialla conv net cross entropy loss vs epoch, and the tuned convolutional model cross entropy loss vs epoch. Make a similar curve that shows the training epoch on the X-axis and the model test accuracy on the Y-axis for all three models. What hyper-parameters are important for learning?
 
+12. Implement image augmentation. That is, flip all the images horizontally 180 degrees. Then train your CNN on a new dataset consisting of both augmented data and your original data. Does image augmentation improve performance? 
+
 
 ### Feature Atribution on Animal Images
 
-12. Using the starter code [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/smooth_grad.py), run SmoothGrad on one your convolutional model from step 10. Produce a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
+13. Using the starter code [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/smooth_grad.py), run SmoothGrad on one your convolutional model from step 10. Produce a graphic similar to those in Lecture 10, which shows a heatmap of the gradient on the image demonstrating what pixels SmoothGrad is selecting on. See for example [here](https://www.semanticscholar.org/paper/SmoothGrad%3A-removing-noise-by-adding-noise-Smilkov-Thorat/f538dca4def5167a32fbc12107b69a05f0c9d832/figure/2).
 
-13. Similarly, use LIME on images to generate an explanation of what features your convolutional net from step 10 is selecting on. See for example [here](https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/images.png). Starter code is [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/LIME.py). Compare the features selected on by LIME and SmoothGrad. Are there any common features for certain animals? 
+14. Similarly, use LIME on images to generate an explanation of what features your convolutional net from step 10 is selecting on. See for example [here](https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/images.png). Starter code is [here](https://github.com/bstadie/STAT_415_Spring_2025/blob/main/HW%205/LIME.py). Compare the features selected on by LIME and SmoothGrad. Are there any common features for certain animals? 
 
 That's it! You're done with the HW for this class.
